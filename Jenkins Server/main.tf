@@ -17,6 +17,7 @@ module "vpc" {
     Environment = "dev"
   }
 
+
   public_subnet_tags = {
     Name = "jenkins-subnet"
   }
